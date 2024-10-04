@@ -30,9 +30,10 @@ Check [this code](./demo/Program.cs) it has this part below
     }
 ```
 
-which enables the json printer for debug logging. Check honeycomb.io config for parameters,
+which enables the json printer for debug logging. You can test it by running the demo project with debugger.
 
-I created it from [free account](https://docs.honeycomb.io/get-started/start-building/application/) honeycomb provides
+Check honeycomb.io config for parameters, I created it
+from [free account](https://docs.honeycomb.io/get-started/start-building/application/) honeycomb provides
 for testing.
 They support dotnet java npm and have good documentation, easy. This is necessary for opentelemetry, I did not wanted to
 install opentelemetry compliant server so I used honeycomb.
