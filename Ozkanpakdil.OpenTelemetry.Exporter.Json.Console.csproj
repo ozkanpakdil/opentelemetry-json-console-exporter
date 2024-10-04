@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <PackageId>Ozkanpakdil.OpenTelemetry.Exporter.Json.Console</PackageId>
+    <AssemblyName>Ozkanpakdil.OpenTelemetry.Exporter.Json.Console</AssemblyName>
+    <RootNamespace>Ozkanpakdil.OpenTelemetry.Exporter.Json.Console</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFramework>net8.0</TargetFramework>
+    <Description>Console(JSON) exporter for OpenTelemetry .NET for debugging</Description>
+    <PackageTags>opentelemetry;console;distributed-tracing;json;opentelemetry-console;debug</PackageTags>
+    <Version>1.0.9</Version>
+    <Authors>Özkan Pakdil</Authors>
+    <Company>https://ozkanpakdil.github.io/</Company>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ozkanpakdil/opentelemetry-json-console-exporter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ozkanpakdil/opentelemetry-json-console-exporter</RepositoryUrl>
+    <LangVersion>12.0</LangVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <NoWarn>$(NoWarn),1591</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+    <PackageReference Include="OpenTelemetry" Version="1.7.0" />
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.7.0" />
+  </ItemGroup>
+</Project>
