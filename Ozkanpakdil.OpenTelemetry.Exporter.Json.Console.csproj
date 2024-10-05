@@ -10,7 +10,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Description>Console(JSON) exporter for OpenTelemetry .NET for debugging</Description>
     <PackageTags>opentelemetry;console;distributed-tracing;json;opentelemetry-console;debug</PackageTags>
-    <Version>1.0.10</Version>
+    <Version>1.0.12</Version>
     <Authors>Özkan Pakdil</Authors>
     <Company>https://ozkanpakdil.github.io/</Company>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>

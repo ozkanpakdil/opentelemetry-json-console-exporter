@@ -18,7 +18,8 @@ dotnet add package Ozkanpakdil.OpenTelemetry.Exporter.Json.Console
 
 ## Configuration
 
-Check [this code](./demo/Program.cs) it has this part below
+Check [this code](https://github.com/ozkanpakdil/opentelemetry-json-console-exporter/blob/main/demo/Program.cs) for
+WebApplication it has this part below
 
 ```csharp
     if (Debugger.IsAttached)
@@ -36,7 +37,10 @@ Check honeycomb.io config for parameters, I created it
 from [free account](https://docs.honeycomb.io/get-started/start-building/application/) honeycomb provides
 for testing.
 They support dotnet java npm and have good documentation, easy. This is necessary for opentelemetry, I did not wanted to
-install opentelemetry compliant server so I used honeycomb.
+install opentelemetry compliant server so I used honeycomb. Below you can see how it looks in rider debugger.
+
+![image](https://github.com/user-attachments/assets/5f05df19-f23d-4d11-b0d6-68c3c2c5a958)
+
 
 ## Environment Variables
 
