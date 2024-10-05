@@ -37,10 +37,7 @@ Check honeycomb.io config for parameters, I created it
 from [free account](https://docs.honeycomb.io/get-started/start-building/application/) honeycomb provides
 for testing.
 They support dotnet java npm and have good documentation, easy. This is necessary for opentelemetry, I did not wanted to
-install opentelemetry compliant server so I used honeycomb. Below you can see how it looks in rider debugger.
-
-![image](https://github.com/user-attachments/assets/5f05df19-f23d-4d11-b0d6-68c3c2c5a958)
-
+install opentelemetry compliant server so I used honeycomb. [Here](https://github.com/user-attachments/assets/5f05df19-f23d-4d11-b0d6-68c3c2c5a958) you can see how it looks in rider debugger.
 
 ## Environment Variables
 
